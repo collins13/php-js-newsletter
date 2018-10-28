@@ -1,0 +1,209 @@
+body {
+  overflow-x: hidden;
+}
+
+
+div#wrapper{
+  width: 1300px;
+  padding: 0px;
+  margin: 0px;
+  clear: both;
+}
+
+#sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+#main-menu{
+  padding: 20px;
+   position: relative;
+
+}
+
+.form{
+	border: 1px solid black;
+	background-color: white;
+	line-height:20px;
+	margin-top:20px;
+	padding:10px;
+}
+
+.error{
+	color: red;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+
+.success{
+		color: green;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 400px;
+}
+h1{
+	color: green;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#bg{
+  background-image: url("../images/evergreen-conifers.jpg");
+  background-position: fixed;
+  background-size: cover;
+}
+#size{
+  width: 300px;
+}
+
+div#mainsection{
+  width: 980px;
+  margin: auto;
+  padding: 10px;
+}
+
+div#form-elements{
+  padding: 10px;
+
+}
+div#form-elements label{
+  width: 110px;
+  padding: 10px;
+  float: left;
+
+}
+div#form-elements input[type="text"]{
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+  -webkit-border-redius:14px;
+  -moz-border-redius:14px;
+  border-redius:14px;
+
+}
+
+div#form-elements textarea{
+  height: 150px;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+  -webkit-border-redius:14px;
+  -moz-border-redius:14px;
+  border-radius: 14px;
+
+
+}
+div#mainsection h3{
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+div#form-elements1{
+  float: left;
+  padding: 40px;
+
+}
+div.clear{
+  clear: both;
+}
+div#error{
+  color: red;
+  padding: 10px;
+}
+
+div#success{
+  color: green;
+  padding: 10px;
+}
+div#description{
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+  width: 450px;
+  min-height: 200px;
+
+}
+div#option{
+  margin-top: 10px;
+  padding: 10px;
+}
+div.form-elements{
+  padding: 10px;
+
+}
+div.form-elements label{
+  width: 110px;
+  padding: 10px;
+  float: left;
+
+}
+div.form-elements input[type="text"], type["email"]{
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+  -webkit-border-redius:14px;
+  -moz-border-redius:14px;
+  border-redius:14px;
+
+}
+
+div.form-elements textarea{
+  height: 150px;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+  -webkit-border-redius:14px;
+  -moz-border-redius:14px;
+  border-radius: 14px;
+
+
+}
+#edit-form{
+  margin-top: 40px;
+  display: none;
+}
+.row.content {height: 1500PX;}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  height: 100%;
+  background-color: #111; /* Black */
+  position: fixed;
+
+}
+ .sidenav ul{
+   list-style: none;
+   color: black;
+ }
+
+ .sidenav ul li a{
+   list-style: none;
+   font-size: 18px;
+   font-weight: bold;
+ }
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;}
+}
